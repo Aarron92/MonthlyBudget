@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_outgoing_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/view_outgoing_modal_title"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/dialog_outgoing_name_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_outgoing_title"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/outgoing_name_header"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/dialog_outgoing_name_editable_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_outgoing_name_header"
+            android:layout_marginTop="4dp"
+            android:hint="@string/outgoing_name_field_hint"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/dialog_outgoing_amount_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_outgoing_name_editable_field"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/outgoing_amount_header"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/dialog_outgoing_amount_editable_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_outgoing_amount_header"
+            android:layout_marginTop="4dp"
+            android:hint="@string/outgoing_amount_field_hint"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/dialog_outgoing_date_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_outgoing_amount_editable_field"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/outgoing_date_header"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000000" />
+
+        <!-- TODO: Date field is just a string for now, will eventually be a date picker -->
+        <EditText
+            android:id="@+id/dialog_outgoing_date_editable_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_outgoing_date_header"
+            android:layout_marginTop="4dp"
+            android:hint="@string/outgoing_date_field_hint"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000" />
+
+        <!-- TODO: ACCOUNT REF IS JUST A STRING FOR NOW BUT WILL EVENTUALLY REF AN ACCOUNT -->
+        <TextView
+            android:id="@+id/dialog_outgoing_account_ref_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_outgoing_date_editable_field"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/outgoing_account_ref_header"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/dialog_outgoing_account_ref_editable_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_outgoing_account_ref_header"
+            android:layout_marginTop="4dp"
+            android:hint="@string/outgoing_account_ref_field_hint"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:visibility="gone"/>
+
+        <Spinner
+            android:id="@+id/dialog_outgoing_account_ref_dropdown_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_outgoing_account_ref_header"
+            android:layout_marginTop="4dp"
+            android:spinnerMode="dropdown"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/dialog_outgoing_comment_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_outgoing_account_ref_editable_field"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/outgoing_comment_header"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/dialog_outgoing_comment_editable_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_outgoing_comment_header"
+            android:layout_marginTop="4dp"
+            android:hint="@string/outgoing_comment_field_hint"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/dialog_outgoing_non_nullable_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_outgoing_comment_editable_field"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:hint="@string/outgoing_non_nullable_warning"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000" />
+
+        <!-- TODO: NEED TO ADD A DROPDOWN WHERE YOU AN CHOOSE THE ACCOUNT TYPE -->
+
+        <!-- TODO: NEED TO SORT OUT THE BUTTON LAYOUT OF THIS STUFF - REPLACE EMPTY VIEW WITH A GUIDELINE-->
+        <View
+            android:id="@+id/dialog_outgoing_empty_view"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/dialog_outgoing_non_nullable_warning"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/dialog_outgoing_edit_and_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_outgoing_empty_view"
+            android:layout_toEndOf="@id/dialog_outgoing_empty_view"
+            android:backgroundTint="@color/app_dark_blue"
+            android:text="@string/edit_account_button_text" />
+
+        <Button
+            android:id="@+id/dialog_outgoing_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_outgoing_empty_view"
+            android:layout_toEndOf="@id/dialog_outgoing_edit_and_save_button"
+            android:backgroundTint="@color/app_dark_blue"
+            android:text="@string/cancel_account_button_text" />
+
+        <!-- TODO: Temporary positioning of this for now -->
+        <Button
+            android:id="@+id/dialog_outgoing_delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_outgoing_cancel_button"
+            android:layout_toEndOf="@id/dialog_outgoing_empty_view"
+            android:backgroundTint="@color/app_delete_red"
+            android:text="@string/delete_account_button_text"
+            android:visibility="gone"/>
+
+</RelativeLayout>

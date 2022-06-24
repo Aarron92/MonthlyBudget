@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/currency_header">
+
+        <CheckBoxPreference
+            app:title="@string/currency_gbp"
+            app:defaultValue="true" />
+
+        <CheckBoxPreference
+            app:title="@string/currency_usd"
+            app:defaultValue="false" />
+
+        <CheckBoxPreference
+            app:title="@string/currency_eur"
+            app:defaultValue="false" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

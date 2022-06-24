@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/activity_load_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/activity_settings.xml" value="0.31197916666666664" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/activity_test.xml" value="0.31197916666666664" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/dialog_account.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/dialog_add_account.xml" value="0.264" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/dialog_monthly_outgoing.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/dialog_outgoing.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/dialog_transaction.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/dialog_view_account.xml" value="0.264" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/fragment_accounts.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/fragment_first.xml" value="0.31197916666666664" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/fragment_monthly_savings.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/fragment_notifications.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/fragment_outgoings.xml" value="0.1671875" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/fragment_transactions.xml" value="0.25622775800711745" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/fragment_transactionss.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/layout_accounts_list.xml" value="0.45119705340699817" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/layout_outgoings_list.xml" value="0.215625" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/layout_transactions_list.xml" value="0.3070652173913043" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/layout/settings_activity.xml" value="0.31197916666666664" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/menu/bottom_nav_menu.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/evansao/AndroidStudioProjects/MonthlyBudget/app/src/main/res/xml/root_preferences.xml" value="0.31197916666666664" />
+        <entry key="..\:/Users/evansao/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.2640625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

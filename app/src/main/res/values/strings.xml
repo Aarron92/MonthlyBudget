@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">MonthlyBudget</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <!-- Navigation panel fragment titles -->
+    <string name="title_home">Home</string>
+    <string name="title_accounts">Accounts</string>
+    <string name="title_outgoings">Outgoings</string>
+    <string name="title_transactions">Transactions</string>
+    <string name="title_monthly_savings">Monthly Savings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Settings Preference Titles -->
+    <string name="currency_header">Currency</string>
+
+    <!-- Currency Preferences -->
+    <string name="currency_gbp">Great British Pounds (GBP) - \u00AE </string>
+    <string name="currency_usd">United States Dollar (USD) - \u0024 </string>
+    <string name="currency_eur">Euro (EUR) - \u20AC </string>
+    <string name="title_activity_test">TestActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Account Page Strings -->
+    <!-- Button Text -->
+    <string name="add_account_button_text">Add Account</string>
+    <string name="edit_account_button_text">Edit</string>
+    <string name="save_account_button_text">Save</string>
+    <string name="cancel_account_button_text">Cancel</string>
+    <string name="delete_account_button_text">Delete</string>
+
+    <!-- Account Modal Strings -->
+    <string name="view_account_modal_title">Account</string>
+    <string name="add_account_modal_title">Add New Account</string>
+    <string name="edit_account_modal_title">Edit Account</string>
+    <string name="account_name_header">Account Name *</string>
+    <string name="account_amount_header">Amount *</string>
+    <string name="account_comment_header">Comment</string>
+    <string name="account_name_field_hint">e.g. Santander Current Account</string>
+    <string name="account_amount_field_hint">e.g. 1050.50</string>
+    <string name="account_comment_field_hint">e.g. Main current account for bills</string>
+    <string name="account_non_nullable_warning">* Fields marked with an asterisk must be not be empty</string>
+
+    <!-- Outgoing Page Strings -->
+    <!-- Button Text -->
+    <string name="add_outgoing_button_text">Add Outgoing</string>
+    <string name="edit_outgoing_button_text">Edit</string>
+    <string name="save_outgoing_button_text">Save</string>
+    <string name="cancel_outgoing_button_text">Cancel</string>
+
+    <!-- Outgoing Modal Strings -->
+    <string name="view_outgoing_modal_title">Outgoing</string>
+    <string name="add_outgoing_modal_title">Add Monthly Outgoing</string>
+    <string name="edit_outgoing_modal_title">Edit Monthly Outgoing</string>
+    <string name="outgoing_name_header">Outgoing Name *</string>
+    <string name="outgoing_amount_header">Amount *</string>
+    <string name="outgoing_account_ref_header">Account Reference</string>
+    <string name="outgoing_date_header">Date of Payment</string>
+    <string name="outgoing_comment_header">Comment</string>
+    <string name="outgoing_name_field_hint">e.g. Rent</string>
+    <string name="outgoing_amount_field_hint">e.g. 750.00</string>
+    <string name="outgoing_date_field_hint">DD/MM/YYYY</string>
+    <string name="outgoing_account_ref_field_hint">e.g. Current Account</string>
+    <string name="outgoing_comment_field_hint">e.g. Rent due to John for the next month</string>
+    <string name="outgoing_non_nullable_warning">* Fields marked with an asterisk must be not be empty</string>
+
+    <!-- Transaction Page Strings -->
+    <!-- Button Text -->
+    <string name="add_transaction_button_text">Add Transaction</string>
+    <string name="edit_transaction_button_text">Edit</string>
+    <string name="save_transaction_button_text">Save</string>
+    <string name="cancel_transaction_button_text">Cancel</string>
+
+    <!-- Outgoing Modal Strings -->
+    <string name="view_transaction_modal_title">Transaction</string>
+    <string name="add_transaction_modal_title">Add Transaction</string>
+    <string name="edit_transaction_modal_title">Edit Transaction</string>
+    <string name="transaction_amount_header">Amount *</string>
+    <string name="transaction_date_header">Date of Transaction</string>
+    <string name="transaction_account_ref_header">Account Reference</string>
+    <string name="transaction_comment_header">Comment</string>
+    <string name="transaction_amount_field_hint">e.g. 1.99</string>
+    <string name="transaction_date_field_hint">DD/MM/YYYY</string>
+    <string name="transaction_account_ref_field_hint">e.g. Current Account</string>
+    <string name="transaction_comment_field_hint">e.g. Bottle of water</string>
+    <string name="transaction_non_nullable_warning">* Fields marked with an asterisk must be not be empty</string>
+
+</resources>
